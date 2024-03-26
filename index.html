@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gill+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Lista de Tarefas</h1>
+        <h2 class="subtitulo">Programação FrontEnd</h2>
+        
+        <div class="form-container">
+            <label for="input_nova_tarefa">Digite sua nova tarefa:</label>
+            <input type="text" id="input_nova_tarefa" placeholder="Digite sua nova tarefa">
+            <button id="adicionar-tarefa-btn">+</button>
+        </div>
+
+        <div class="lista-container">
+            <ul id="lista_de_tarefas"></ul>
+        </div>
+
+        <button id="resetar-tarefas-btn">Resetar Tarefas</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
